@@ -10,6 +10,7 @@ app.use(bodyParser.json({limit:"30mb", extended:true}));
 app.use(bodyParser.urlencoded({limit:"30mb", extended:true}));
 app.use(cors());
 
+
 const CONNECTION_URL = 'mongodb+srv://lambdamemories:lambdamemories7783@cluster0.oqdtx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 5000;
 
